@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+.main {
+  background-color: #900098;
+  color: #ffffff;
+  padding: 10vw 2vw;
+  background-image: url(bg_header.jpg);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 30px rgba(0, 0, 0, 0.1) inset;
+}
+.main .main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: no-wrap;
+  padding: 1vw;
+  position: relative;
+  text-shadow: 0 1px 4px rgba(1, 1, 1, 0.3), 0 30px rgba(1, 1, 1, 0.1) inset;
+  text-shadow: black 0 5px 3px;
+}
+.main .main-content h1 {
+  text-align: center;
+  font-size: calc(1.3rem + 1.3vmin);
+}
+.main .main-content h3 {
+  text-align: center;
+  font-size: calc(0.6rem + 0.6vmin);
+}
+.main .main-content p {
+  text-align: center;
+  font-size: calc(0.7rem + 0.7vmin);
+}
+.main .main-content .more {
+  justify-content: center;
+  padding-left: 1.5%;
+  padding-right: 1.5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background-color: #900098;
+  font-size: calc(0.6rem + 0.6vmin);
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-style: solid;
+  border-color: #ffffff;
+  text-shadow: none;
+}
+.header {
+  background-color: #900098;
+  color: #ffffff;
+}

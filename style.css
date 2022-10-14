@@ -1,0 +1,60 @@
+/* Наличие переменных */
+/* Использование миксин */
+/* Стилизация макета */
+* {
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+/* Стилизуем main */
+.main {
+  background-color: (255,255,255);
+  color: #000000;
+  padding: 1vw 2vw;
+}
+.main .main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: no-wrap;
+  padding: 1vw;
+  position: relative;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 30px rgba(0, 0, 0, 0.1) inset;
+}
+.main .main-content h2 {
+  font-size: calc(1.3rem + 1.3vmin);
+}
+.main .main-content p {
+  width: 70%;
+  text-align: center;
+  font-size: calc(0.7rem + 0.7vmin);
+}
+.main-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: no-wrap;
+  padding: 3vw;
+  height: 5vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.main-container:nth-child(1) {
+  background-image: url('https://cdn-icons-png.flaticon.com/128/181181540.png');
+}
+.main-container:nth-child(2) {
+  background-image: url('https://cdn-icons-png.flaticon.com/128/181181535.png');
+}
+.main-container:nth-child(3) {
+  background-image: url('https://cdn-icons-png.flaticon.com/128/181181514.png');
+}
+.main-container:nth-child(4) {
+  background-image: url('https://cdn-icons-png.flaticon.com/128/181181548.png');
+}
